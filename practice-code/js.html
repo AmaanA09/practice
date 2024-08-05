@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head>
+        <title>javascript</title>
+    </head>
+    <body>
+        <h1 align="center">Hello Javascript</h1>
+        <div style="display:flex;  height:250px; border:1px solid black; flex-direction: column; align-items: center;
+        margin-bottom: 10px;">
+           <p id="para">
+              my name is amaan
+           </p>
+           <div
+            id="1" style=" background-color:black; width:70px; height:70px;"></div>
+        </div>
+        <div style=" display:flex; flex-direction:row; align-items: center; height:250px; border:1px solid black; justify-content: center;">
+            <button style="margin:10px; padding:10px" onclick="change()">change text</button>
+            <button style="margin:10px; padding:10px; background-color: red;" onclick="red()">red</button>
+            <button style="margin:10px; padding:10px; background-color: green" onclick="green()">green</button>
+            <button style="margin:10px; padding:10px; background-color: yellow" onclick="yellow()">yellow</button>
+        </div>
+
+        <script>
+            // alert("hi");
+            // document.getElementById("para").style="color:red"
+            function red(){
+                document.getElementById("1").style="background-color:red; width:70px; height:70px;"
+            }
+            function green(){
+                document.getElementById("1").style="background-color:green; width:70px; height:70px;"
+            }
+            function yellow(){
+                document.getElementById("1").style="background-color:yellow;  width:70px; height:70px;"
+            }
+            var text = "signal"
+            function change(){
+                var change = text;
+                text = document.getElementById("para").innerText;
+                document.getElementById("para").innerText= change;  
+                red();
+            }
+        </script>
+    </body>
+</html>

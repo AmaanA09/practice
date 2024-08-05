@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="to-do--list.css">
+</head>
+
+<body>
+    <!-- <section id="project-list"> -->
+    <table class="table-section">
+        <h1>TO-DO-LIST</h1>
+        <thead>
+            <tr>
+                <th class="table-data">Sr.No</th>
+                <th class="table-data">project name</th>
+                <th class="table-data">description</th>
+                <th class="table-data">date</th>
+                <th class="table-data">assigned by</td>
+                <!-- <th class="table-data">priority</th> -->
+            </tr>
+        </thead>
+        <tbody id="to-do-list">
+
+        </tbody>
+
+    </table>
+    <form id="to-do-list-form" autocomplete="on" onsubmit="return false" >
+        <div class="form">
+            <label for="SrNo">Serial Number:-</label>
+            <input type="number" id="SrNo" name="SrNo" required>
+        </div>
+        <div class="form">
+            <label for="project-name">Enter Your Project Name:-</label>
+            <input type="text" id="project-name" name="project-name" required>
+        </div>
+        <div class="form">
+            <label for="description">Enter Your project Description:-</label>
+            <input type="text" id="description" name="description">
+        </div>
+        <div class="form">
+            <label for="date">Enter Starting Date:- </label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div class="form">
+            <label for="assigned">Enter name of project mentor:-</label>
+            <input type="text" id="assigned" name="assigned" required>
+        </div>
+        <div class="form">
+            <label for="priority">Enter priority of your project:- </label>
+            <input type="number" id="priority" name="priority">
+        </div>
+        <div id="submit-btn">
+            <button onclick="taskDetails()" > Submit </button>
+        </div>
+    </form>
+    
+    <script src="to-do-list.js"></script>
+
+</body>
+
+</html>

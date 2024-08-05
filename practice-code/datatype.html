@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>DATATYPE</title>
+    <style>
+        * {
+            margin: 0px;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+
+        #faq-section {
+            background-color: black;
+            width: 100vw;
+            height: 100%;
+            padding: 2rem 10rem 2rem 10rem;
+        }
+
+        .head {
+            display: flex;
+            justify-content: center;
+            color: #ffffff;
+            font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+            font-size: 48px;
+
+        }
+
+        .faq {
+            color: #ffffff;
+            /* padding: 1.5rem; */
+            margin: 10px;
+        }
+
+        .heading {
+            background-color: #2d2d2d;
+            display: flex;
+            justify-content: space-between;
+            padding:25px;
+            cursor:pointer;
+        }
+
+        .heading:hover{
+            background-color: #636363;
+        }
+
+        .button {
+            width: 24px;
+            height: 24px;
+            color: white;
+        }
+
+        h3 {
+            font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+            font-size: 24px;
+        }
+        .discription{
+            background-color: #2d2d2d;
+            margin-top: 1px;
+            font-size: 24px;
+            padding: 25px;
+            display:none;
+        }
+        .faq > .discription > .p-top {
+            margin-bottom: 30px;
+        }
+        .hidden{
+            display:none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Netflix FAQ Open -->
+
+    <section id="faq-section">
+        <h2 class="head">Frequently Asked Questions</h2>
+
+        <!-- box1 -->
+        <article class="faq">
+            <div class="heading">
+                <h3>
+                    What is Netflix?
+                </h3>
+                <img class="button" src="image/plus.svg" alt="plus">
+            </div>
+            <div class="discription">
+                <p class="p-top">
+                    Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                    documentaries and more – on thousands of internet-connected devices.
+                </p>
+                <p>
+                    You can watch as much as you want, whenever you want, without a single ad – all for one low monthly
+                    price. There's always something new to discover, and new TV shows and movies are added every week!
+
+                </p>
+            </div>
+        </article>
+
+        <!-- box2 -->
+        <article class="faq">
+            <div class="heading">
+                <h3>
+                    How Much Does Netflix Cost?
+                </h3>
+                <img class="button" src="image/plus.svg" alt="plus">
+            </div>
+            <div class="discription">
+                <p>
+                    Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed
+                    monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.
+
+                </p>
+            </div>
+        </article>
+
+        <!-- box3 -->
+        <article class="faq">
+            <div class="heading">
+                <h3>
+                    Where Can I Watch?
+                </h3>
+                <img class="button" src="image/plus.svg" alt="plus">
+            </div>
+            <div class="discription">
+                <p class="p-top">
+                    Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at
+                    netflix.com from your personal computer or on any internet-connected device that offers the Netflix
+                    app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+                </p>
+                <p>
+                    You can also download your favourite shows with the iOS or Android app. Use downloads to watch while
+                    you're on the go and without an internet connection. Take Netflix with you anywhere.
+
+                </p>
+            </div>
+        </article>
+
+        <!-- box4 -->
+        <article class="faq">
+            <div class="heading">
+                <h3>
+                    How Do I Cancel?
+                </h3>
+                <img class="button" src="image/plus.svg" alt="plus">
+            </div>
+            <div class="discription">
+                <p>
+                    Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your
+                    account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+
+                </p>
+            </div>
+        </article>
+
+        <!-- box5 -->
+        <article class="faq">
+            <div class="heading">
+                <h3>
+                    What can I watch?
+                </h3>
+                <img class="button" src="image/plus.svg" alt="plus">
+            </div>
+            <div class="discription">
+                <p>
+                    Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning
+                    Netflix originals, and more. Watch as much as you want, anytime you want.
+
+                </p>
+            </div>
+        </article>
+
+        <!-- box6 -->
+        <article class="faq">
+            <div class="heading">
+                <h3>
+                    Is netflix Good for Kids?
+                </h3>
+                <img class="button" src="image/plus.svg" alt="plus">
+            </div>
+            <div class="discription">
+                <p class="p-top">
+                    The Netflix Kids experience is included in your membership to give parents control while kids enjoy
+                    family-friendly TV shows and films in their own space.
+                </p>
+                <p>
+                    Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of
+                    content kids can watch and block specific titles you don’t want kids to see.
+
+                </p>
+            </div>
+        </article>
+
+
+    </section>
+
+    <!-- Netflix FAQ Closed -->
+
+    <script>
+
+        var name = "Amaan Ansari";
+
+        var email = 'amaan5074@gmail.com';
+
+        var phoneNumber = 1234567890;
+
+        var adult = true;
+
+        var courseFeesBalance = 1200.00;
+
+        let placement = null
+
+        let batch;
+
+        console.log(typeof name);
+        console.log(typeof email);
+        console.log(typeof phoneNumber);
+        console.log(typeof adult);
+        console.log(typeof courseFeesBalance);
+        console.log(typeof placement);
+        console.log(typeof batch);
+
+        var studentName = ["amaan", "adnan", "sami", "soban"];
+        console.log(studentName[0]);
+        var studentDetail = {
+            code: "TP_FS_01",
+            totalStudent: 20,
+            tech: "react",
+            students: studentName,
+            addStudent: function (value) {
+
+
+            }
+        }
+
+        console.log(studentDetail.students);
+
+        var faq = [
+            {
+                question: "What is NetFlix?",
+                answer: "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices. You can watch as much as you want, whenever you want – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!"
+
+            },
+
+            {
+                question: "How much does Netflix cost?",
+                answer: "Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from $6.99 to $22.99 a month. No extra costs, no contracts."
+            },
+
+            {
+                question: "Where can I watch?",
+                answer: "Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.You can also download your favorite shows with the iOS or Android app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere."
+            },
+
+            {
+                question: "How do I cancel?",
+                answer: "Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime."
+            },
+
+            {
+                question: "What can I watch on Netflix?",
+                answer: "Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want."
+            },
+
+            {
+                question: "Is Netflix good for kids?",
+                answer: "The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see."
+            },
+        ]
+
+    </script>
+
+</body>
+
+</html>
